@@ -1,9 +1,9 @@
-name: Workflow Name 
-on: [push] 
-jobs: 
-  say-hello: 
-    runs-on: ubuntu-latest 
-    steps: 
-      -uses: actions/checkout@v4
-      -name: Greeting Message
-       run: echo "Hello world"
+name: Workflow Name
+on: [push]
+jobs:
+  say-hello:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Greeting Message
+        run: echo "Hello world"
